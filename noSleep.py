@@ -1,11 +1,14 @@
 import pyautogui
 import time
 
-def press_f16_every_minute():
-    pyautogui.failsafe=False
-    while True:
-        pyautogui.press('f16')  # Press the F16 key
-        time.sleep(60)  # Wait for 1 minute
+def press_f13_every_minute():
+    pyautogui.FAILSAFE = False
+    try:
+        while True:
+            pyautogui.press('f13')  # Press the F16 key
+            time.sleep(60)  # Wait for 1 minute
+    except KeyboardInterrupt:
+        print("Program interrupted by user.")
 
-# Call the function to start pressing F16 every minute
-press_f16_every_minute()
+if __name__ == "__main__":
+    press_f13_every_minute()
