@@ -8,4 +8,6 @@ there are 2 code:
 
 ```
 pyinstaller --onefile --noconsole --hidden-import pyautogui .\noSleep.py
+
+pyinstaller --onefile --noconsole --hidden-import keyboard .\noSleep.py
 ```

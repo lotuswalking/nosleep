@@ -2,7 +2,7 @@ build/*
 dist/*
 *.txt
 *.exe
-
+*.log
 # Compiled bytecode
 *.pyc
 *.pyo
