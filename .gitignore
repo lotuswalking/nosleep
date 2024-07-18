@@ -1,0 +1,21 @@
+build/*
+dist/*
+*.txt
+*.exe
+
+# Compiled bytecode
+*.pyc
+*.pyo
+
+# IDE specific files
+.idea/
+.vscode/
+
+# Test files and coverage
+__pycache__/
+*.egg-info/
+.coverage
+
+# Virtual environment
+.venv/
+env/
